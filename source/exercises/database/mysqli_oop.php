@@ -34,9 +34,16 @@ if (!$result) {
     return;
 }
 
-while ($row = $result->fetch_row()) {
-    printf ("%d - %s (%s)\n<br/>", $row[0], $row[1], $row[2]);
+//while ($row = $result->fetch_row()) {
+//    printf ("%d - %s (%s)\n<br/>", $row[0], $row[1], $row[2]);
+//}
+//
+
+while ($row = $result->fetch_object('Item')) {
+    var_dump($row);
+    echo '<br/>';
 }
+
 
 
 // free result set

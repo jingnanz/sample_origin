@@ -20,10 +20,10 @@ RUN composer global require friendsofphp/php-cs-fixer
 RUN /usr/local/bin/docker-php-ext-install mysqli
 
 # PDO:
-# RUN /usr/local/bin/docker-php-ext-install pdo_mysql
+RUN /usr/local/bin/docker-php-ext-install pdo_mysql
 
 # XDEBUG
-# RUN pecl install xdebug
+RUN pecl install xdebug
 
 
 # Apache configuration
