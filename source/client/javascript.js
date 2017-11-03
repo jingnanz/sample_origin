@@ -1,8 +1,12 @@
 
 var baseURL = 'http://localhost/api';
 
-var userToken = getCookie('token');
-var isAdmin = getCookie('isAdmin');
+//var userToken = getCookie('token');
+//var isAdmin = getCookie('isAdmin');
+
+var userToken;
+var isAdmin;
+
 
 function httpRequest(method, url, payload, callback) {
     var httpRequest = new XMLHttpRequest();

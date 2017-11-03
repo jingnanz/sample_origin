@@ -2,7 +2,7 @@
 
 class Calculator
 {
-    public static function sum(float $x, float $y): float
+    public static function sum($x,$y)
     {
         return $x + $y;
     }
@@ -11,4 +11,6 @@ class Calculator
     {
         return $x * $y;
     }
+
+
 }

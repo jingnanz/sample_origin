@@ -1,0 +1,18 @@
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ docker ps
+CONTAINER ID        IMAGE                  COMMAND                  CREATED                                                                                                                                                                                                            STATUS              PORTS                                        NAMES
+53e2773c4be3        cewp559fall2017_php7   "docker-php-entryp..."   About an hou                                                                                                                                                                                               r ago   Up About an hour    0.0.0.0:80->80/tcp, 0.0.0.0:8080->8080/tcp   cewp559                                                                                                                                                                                               fall2017_php7_1
+1a291b65d573        mysql                  "docker-entrypoint..."   About an hou                                                                                                                                                                                               r ago   Up About an hour    0.0.0.0:4406->3306/tcp                       cewp559                                                                                                                                                                                               fall2017_mysql_1
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ winpty docker exec -it 53e2773c4be3 bash
+root@53e2773c4be3:/var/www/html# cd api
+root@53e2773c4be3:/var/www/html/api# composer require phpmailer/phpmailer
+
+root@53e2773c4be3:/var/www/html/api# composer install
+
+root@53e2773c4be3:/var/www/html/api# php -f email.php
+
+
+

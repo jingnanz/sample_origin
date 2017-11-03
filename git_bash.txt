@@ -1,0 +1,157 @@
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ cd Desktop
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop
+$ cd CEWP-559-fall-2017-project-skeleton
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017-project-skeleton
+$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017-project-skeleton
+$ git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017-project-skeleton
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017-project-skeleton
+$ clear
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017-project-skeleton
+$ cd
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+fatal: destination path 'CEWP-559-fall-2017' already exists and is not an empty directory.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+fatal: destination path 'CEWP-559-fall-2017' already exists and is not an empty directory.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~
+$ cd Desktop
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop
+$ git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+Cloning into 'CEWP-559-fall-2017'...
+remote: Counting objects: 536, done.
+remote: Compressing objects: 100% (112/112), done.
+remote: Total 536 (delta 80), reused 140 (delta 57), pack-reused 362
+Receiving objects: 100% (536/536), 445.25 KiB | 705.00 KiB/s, done.
+Resolving deltas: 100% (201/201), done.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop
+$ cd CEWP
+bash: cd: CEWP: No such file or directory
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop
+$ cd CEWP-559-fall-2017
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (master)
+$ git checkout git checkout
+error: pathspec 'git' did not match any file(s) known to git.
+error: pathspec 'checkout' did not match any file(s) known to git.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (master)
+$ git checkout -b codes-from-20171102
+Switched to a new branch 'codes-from-20171102'
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git add .
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git commit -m "Code changes from last week"
+On branch codes-from-20171102
+nothing to commit, working tree clean
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git push origin codes-from-20171102
+ERROR: Permission to majidfn/CEWP-559-fall-2017.git denied to jingnanz.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git push origin codes-from-20171102
+ERROR: Permission to majidfn/CEWP-559-fall-2017.git denied to jingnanz.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git fetch -a
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git remote -v
+origin  git@github.com:majidfn/CEWP-559-fall-2017.git (fetch)
+origin  git@github.com:majidfn/CEWP-559-fall-2017.git (push)
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (codes-from-20171102)
+$ git checkout origin/project-skeleton
+Note: checking out 'origin/project-skeleton'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 0f057ba... Merge pull request #4 from majidfn/20171026-in-class
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 ((0f057ba...))
+$ git status
+HEAD detached at origin/project-skeleton
+nothing to commit, working tree clean
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 ((0f057ba...))
+$ git pull origin project-skeleton
+From github.com:majidfn/CEWP-559-fall-2017
+ * branch            project-skeleton -> FETCH_HEAD
+Already up-to-date.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 ((0f057ba...))
+$ git checkout project-skeleton
+Switched to a new branch 'project-skeleton'
+Branch project-skeleton set up to track remote branch project-skeleton from origin.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (project-skeleton)
+$ git pull origin project-skeleton
+From github.com:majidfn/CEWP-559-fall-2017
+ * branch            project-skeleton -> FETCH_HEAD
+Already up-to-date.
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (project-skeleton)
+$ docker-compose.exe down
+
+ji_zhuo@CCE-FB133-07W MINGW64 ~/Desktop/CEWP-559-fall-2017 (project-skeleton)
+$ docker-compose.exe up
