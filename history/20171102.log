@@ -1,0 +1,338 @@
+    1  ssh-keygen -t rsa -b 4096 -C "fancy_melody75@hotmail.com"
+    2  ls
+    3  ls-al
+    4  ls -al
+    5  ls -al ~
+    6  ls -al ~/.ssh
+    7  cat ~/.ssh/id_rsa.pub
+    8  $ cat ~/.ssh/id_rsa.pub
+    9  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQjcOamFq2G1bd8Y5jEAXi/oBfdyLBXDwNXvDZVpoSy58OZxRAjnpF/XMHbsGudzgl9qR6zxG/kFcTKcnGU4x/W/EeVEU2mUDEwEMI7GoZcdkkWcsczE3N3b4d4aGsH3wahLKmpoY6tAEhGyxWm7CSfOHMZtapmhNWm8wJ0xhngKcZurtcifDaQj+fBiV6QRPQuPmbeLQcIadjqr/dJbgZEDqgiIlGJMOZ+8I7jcAT1pbUs08GGtoIStFIMZugFPueJE1Uk7tO8fgCphMTzouYq7TMwkfFmuGY3uLsSIL0x+plaM7xGpudCwwnLHSbagQ9+ODZ2F0qXGbL/aTl5Fz3DtVmrLuIHuzz0s8ZOKMWpD8gMQI+oSouAm7GnI+uyYk3N0VqGXPMKJcly3xXGg60c/0i+CPnftFir1rcKj414JkTxYJP54lfzrxqd1Ri9kdYs6s3VtXRl0bC5YOegb+8uQ/BvdoH6O/jiHJEhb5ydBGzFUe2CmgMOUfvi01SUk0f5bxqKxHvs0CM5AQDy5gr9oqPwnbXGRiPAZcOzyle1XOFF00vWnSsg7enEY3nbk7DCQa9g5eqX4AviO1VFI2xU5bqERhzL6kpn8lhN201levyZx3g03Pq9jbt1CwuNpYD4r9E7vAqy3p9YazvIp9FsJMYWfkW+pgBqUxXiopWyQ== fancy_melody75@hotmail.com
+   10  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQjcOamFq2G1bd8Y5jEAXi/oBfdyLBXDwNXvDZVpoSy58OZxRAjnpF/XMHbsGudzgl9qR6zxG/kFcTKcnGU4x/W/EeVEU2mUDEwEMI7GoZcdkkWcsczE3N3b4d4aGsH3wahLKmpoY6tAEhGyxWm7CSfOHMZtapmhNWm8wJ0xhngKcZurtcifDaQj+fBiV6QRPQuPmbeLQcIadjqr/dJbgZEDqgiIlGJMOZ+8I7jcAT1pbUs08GGtoIStFIMZugFPueJE1Uk7tO8fgCphMTzouYq7TMwkfFmuGY3uLsSIL0x+plaM7xGpudCwwnLHSbagQ9+ODZ2F0qXGbL/aTl5Fz3DtVmrLuIHuzz0s8ZOKMWpD8gMQI+oSouAm7GnI+uyYk3N0VqGXPMKJcly3xXGg60c/0i+CPnftFir1rcKj414JkTxYJP54lfzrxqd1Ri9kdYs6s3VtXRl0bC5YOegb+8uQ/BvdoH6O/jiHJEhb5ydBGzFUe2CmgMOUfvi01SUk0f5bxqKxHvs0CM5AQDy5gr9oqPwnbXGRiPAZcOzyle1XOFF00vWnSsg7enEY3nbk7DCQa9g5eqX4AviO1VFI2xU5bqERhzL6kpn8lhN201levyZx3g03Pq9jbt1CwuNpYD4r9E7vAqy3p9YazvIp9FsJMYWfkW+pgBqUxXiopWyQ== fancy_melody75@hotmail.com
+   11  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQjcOamFq2G1bd8Y5jEAXi/oBfdyLBXDwNXvDZVpoSy58OZxRAjnpF/XMHbsGudzgl9qR6zxG/kFcTKcnGU4x/W/EeVEU2mUDEwEMI7GoZcdkkWcsczE3N3b4d4aGsH3wahLKmpoY6tAEhGyxWm7CSfOHMZtapmhNWm8wJ0xhngKcZurtcifDaQj+fBiV6QRPQuPmbeLQcIadjqr/dJbgZEDqgiIlGJMOZ+8I7jcAT1pbUs08GGtoIStFIMZugFPueJE1Uk7tO8fgCphMTzouYq7TMwkfFmuGY3uLsSIL0x+plaM7xGpudCwwnLHSbagQ9+ODZ2F0qXGbL/aTl5Fz3DtVmrLuIHuzz0s8ZOKMWpD8gMQI+oSouAm7GnI+uyYk3N0VqGXPMKJcly3xXGg60c/0i+CPnftFir1rcKj414JkTxYJP54lfzrxqd1Ri9kdYs6s3VtXRl0bC5YOegb+8uQ/BvdoH6O/jiHJEhb5ydBGzFUe2CmgMOUfvi01SUk0f5bxqKxHvs0CM5AQDy5gr9oqPwnbXGRiPAZcOzyle1XOFF00vWnSsg7enEY3nbk7DCQa9g5eqX4AviO1VFI2xU5bqERhzL6kpn8lhN201levyZx3g03Pq9jbt1CwuNpYD4r9E7vAqy3p9YazvIp9FsJMYWfkW+pgBqUxXiopWyQ== fancy_melody75@hotmail.com
+   12  clear
+   13  cd
+   14  pwd
+   15  ls -al
+   16  cd Desktop/
+   17  ls -al
+   18  mkdir cewp
+   19  ls -al
+   20  cd cewp/
+   21  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+   22  ls -al
+   23  cd CEWP-559-fall-2017/
+   24  ls -al
+   25  l
+   26  l
+   27  cd..
+   28  cd . .
+   29  cd ..
+   30  cd cewp-559-fall-2017/
+   31  docker-compose.exe build
+   32  cd
+   33  cd Desktop
+   34  cd CEWP
+   35  cd CEWP-559-fall-2017/
+   36  docker ps
+   37  git branch
+   38  git branch -a
+   39  git remote
+   40  git remote remove origin
+   41  git remote
+   42  git remote add origin https://github.com/jingnanz/sample_origin.git
+   43  git remote add majid git@github.com:majidfn/CEWP-559-fall-2017.git
+   44  git pull majid master
+   45  git branch -a
+   46  git fetch majid -a
+   47  get remote
+   48  git remote
+   49  git remote show origin
+   50  git fetch majid -a
+   51  git fetch majid -a
+   52  git branch -a
+   53  git fetch majid -a
+   54  git branch -a
+   55  git branh -a
+   56  git checkout 20170928
+   57  git status
+   58  git add source/exercises/database/mysqli_procedural.php
+   59  git status
+   60  git commit -m "Solution for exercise 1 - MySQLi procedural"
+   61  git push origin
+   62  git push origin
+   63  git remote show origin
+   64  git remote remove origin
+   65  git remote show origin
+   66  git remote add origin git@github.com:jingnanz/sample_origin.git
+   67  git push origin
+   68  git status
+   69  git push origin
+   70  git push origin
+   71  git push majid
+   72  history
+   73  pwd
+   74  ls -al
+   75  mkdir
+   76  mkdir history
+   77  history > history/20170928.log
+   78  git add history/
+   79  git commit -m"History of all the commands tonight"
+   80  git push origin
+   81  git status
+   82  git add . 
+   83  git commit -m"end of tonight"
+   84  git push origin
+   85  c
+   86  cd
+   87  cd Desktop/
+   88  cd Desktop/cewp/CEWP-559-FALL-2017
+   89  cd
+   90  cd Desktop
+   91  ls
+   92  cd cewp/
+   93  ls
+   94  cd CEWP-559-fall-2017/
+   95  docker-compose build
+   96  docker-compose up
+   97  docker-compose up
+   98  docker-compose up -d
+   99  docker-compose up 
+  100  git pull
+  101  docker-compose up 
+  102  docker compose build
+  103  docker-compose build
+  104  docker-compose up
+  105  docker-compose up
+  106  docker-compose build
+  107  docker-compose up
+  108  docker-compose build
+  109  docker-compose up
+  110  ls -al
+  111  c
+  112  C
+  113  clear
+  114  cd Desktop
+  115  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  116  clear
+  117  git clone  git
+  118  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  119  cd
+  120  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  121  cd CEWP-559-fall-2017/
+  122  docker-compose build
+  123  docker-compose up
+  124  cd
+  125  cd/Desktop
+  126  cd/Desktop/
+  127  cd Desktop
+  128  cd CEWP
+  129  cd ..
+  130  cd CEWP-559-fall-2017/
+  131  git fetch -a
+  132  git checkout out 20171005 
+  133  git checkout 20171005 
+  134  docker-compose.exe build
+  135  docker-compose.exe up
+  136  docker-compose.exe down
+  137  docker-compose.exe up
+  138  git pull
+  139  cd
+  140  cd desktop
+  141  cd cewp-559-fall-2017/
+  142  git pull
+  143  git status
+  144  git status
+  145  git pull
+  146  git status
+  147  git pull majid
+  148  git status
+  149  git pull
+  150  git status
+  151  rm source/excercises/routing/.htaccess
+  152  rm source/exercises/routing/templates/
+  153  git status
+  154  rm source/exercises/routing/templates/
+  155  rm source/exercises/routing/templates
+  156  git pull
+  157  rm source/exercises/routing/templates/style.css
+  158  rm source/exercises/routing/templates/template.php
+  159  git pull
+  160  git remote -v
+  161  git fetch -a
+  162  git checkout project-skeleton
+  163  git checkout -b project
+  164  git push origin
+  165  git fetch majid -a
+  166  git fetch majid -a
+  167  cd ~/Desktop/CEWP-559-fall-2017/
+  168  git fetch -a
+  169  git checkout project-skeleton
+  170  git pull
+  171  git remote -v
+  172  git pull origin project-skeleton
+  173  cd ~/Desktop/CEWP-559-fall-2017-project-skeleton/
+  174  docker-compose build
+  175  ls
+  176  cd CEWP-559-fall-2017-project-skeleton/
+  177  docker-compose build
+  178  docker-compose up
+  179  docker-compose down
+  180  docker-compose build
+  181  docker-compose up
+  182  docker ps
+  183  docker ps --all
+  184  docker stop ea977e7043dc
+  185  docker stop e739dd85104b
+  186  docker ps --all
+  187  docker ps --all
+  188  docker-compose up
+  189  docker rm e739dd85104b887dd39c61dd
+  190  docker-compose up
+  191  docker rm ea977e7043dc2505bec5c
+  192  docker-compose down
+  193  docker-compose build
+  194  docker-compose up
+  195  docker-compose up
+  196  docker-compose up
+  197  cd
+  198  cd Desktop/
+  199  cd CEWP-559-fall-2017-20171009
+  200  cd CEWP-559-fall-2017-20171009
+  201  cd CEWP-559-fall-2017
+  202  cd CEWP-559-fall-2017
+  203  docker-compose down
+  204  docker-compose build
+  205  docker-compose up
+  206  docker-compose up
+  207  docker-compose down
+  208  docker-compose build
+  209  docker-compose up
+  210  clear
+  211  clear
+  212  c
+  213  C
+  214  clear
+  215  docker-compose down
+  216  docker-compose build
+  217  docker-compose up
+  218  clear
+  219  docker-compose down.exe
+  220  clear
+  221  docker-compose down
+  222  docker-compose build
+  223  docker-compose up
+  224  clear
+  225  ~ls
+  226  cd
+  227  cd Desktop
+  228  cd CEWP-559-fall-2017-20171019
+  229  docker-compose down
+  230  docker-compose build
+  231  docker-compose up
+  232  docker ps
+  233  docker-compose down
+  234  docker-compose build
+  235  docker-compose up
+  236  docker ps -a
+  237  docker rm 6dc62d113ade
+  238  docker ps -a
+  239  docker-compose up
+  240  docker ps -a
+  241  docker rm af33663cafa1
+  242  docker rm 09672b040373
+  243  docker ps -a
+  244  docker rm af33663cafa1
+  245  docker stop af33663cafa1
+  246  docker ps -a
+  247  docker rm -f af33663cafa1
+  248  docker ps -a
+  249  docker rm -f 6ff9048b3d28
+  250  docker-compose down
+  251  docker-compose build
+  252  docker-compose up
+  253  git remote -v
+  254  cd Desktop
+  255  cd CEWP-559-fall-2017-project-skeleton/
+  256  docker-compose down
+  257  docker-compose build
+  258  docker-compose up
+  259  docker ps
+  260  winpty docker exec -1t 3f0171781ff9  bash
+  261  winpty docker exec -it 3f0171781ff9  bash
+  262  winpty docker exec -1t 3f0171781ff9  bash
+  263  winpty docker exec -it 3f0171781ff9  bash
+  264  git remote -v
+  265  git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+  266  git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+  267  cd Desktop
+  268  cd CEWP-559-fall-2017-project-skeleton
+  269  git remote -v
+  270  git remote add majid git@github.com-majidfn:majidfn/CEWP-559-fall-2017.git
+  271  git status
+  272  clear
+  273  cd
+  274  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  275  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  276* 
+  277  git clone git@github.com:majidfn/CEWP-559-fall-2017.git
+  278  cd Desktop
+  279  cd CEWP
+  280  cd CEWP-559-fall-2017
+  281  git status 
+  282  git checkout git checkout
+  283  git checkout -b codes-from-20171102
+  284  git add .
+  285  git commit -m "Code changes from last week" 
+  286  git push origin codes-from-20171102
+  287  git push origin codes-from-20171102
+  288  git fetch -a
+  289  git remote -v
+  290  git checkout origin/project-skeleton 
+  291  git status
+  292  git pull origin project-skeleton 
+  293  git checkout project-skeleton 
+  294  git pull origin project-skeleton 
+  295  docker-compose.exe down
+  296  docker-compose.exe up
+  297  docker-compose.exe down
+  298  docker-compose.exe build
+  299  docker-compose.exe up
+  300  git status
+  301  git commit -m"2017-11-02 in class"
+  302  git push origin
+  303  clear
+  304  git status
+  305  git push origin
+  306  git remote -v
+  307  git status
+  308  git push majid
+  309  git push origin
+  310  git rmote show origin
+  311  git remote show origin
+  312  git remote add origin git@github.com:jingnanz/sample_origin.git
+  313  git push origin
+  314  git status
+  315  git push origin
+  316  git status
+  317  git remote -v
+  318  git status
+  319  git add .
+  320  git remove origin
+  321  git remote remove origin
+  322  git remote remove origin
+  323  git remote add origin git@github.com:jingnanz/sample_origin.git
+  324  git remote add majid  git@github.com:majidfn/CEWP-559-fall-2017.git
+  325  git remote -v
+  326  git sttaus
+  327  git status
+  328  git reset HEAD .
+  329  git status
+  330  git checkout -b 20171102-class
+  331  git add .
+  332  git commit -m "All the files from tonight"
+  333  git status
+  334  git push origin 20171102-class 
+  335  history
+  336  mkdir
+  337  mkdir history
+  338  history > history/20171102.log
