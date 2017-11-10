@@ -123,6 +123,13 @@ try {
         $user = $userController->getUserByToken(requestHeaders);
         break;
 
+        case 'payment':
+        if ($method == 'POST') {
+        $payment = new PaymentController();
+        $payment->collect($requestJSON);
+        }
+        break;
+
         
         default:
         throw new Exception("$method is not implemented on: $baseURL ", 501); // 501: Not Implemented!
